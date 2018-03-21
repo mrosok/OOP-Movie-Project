@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:id="dialog"
+            fx:controller="no.hiof.martr.com.movie.controller.DialogController"
+            >
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Title: " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtTitle" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Description: " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextArea fx:id="txtDescription" GridPane.rowIndex="1" GridPane.columnIndex="1" wrapText="true"/>
+            <Label text="Release date: " GridPane.rowIndex="2" GridPane.columnIndex="0" />
+            <DatePicker fx:id="valDate" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label text="Runtime (minutes): " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtRuntime" GridPane.rowIndex="3" GridPane.columnIndex="1" maxWidth="80" />
+            <Label text="Genre" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtGenre" GridPane.rowIndex="4" GridPane.columnIndex="1" maxWidth="140" />
+
+        </GridPane>
+    </content>
+</DialogPane>
