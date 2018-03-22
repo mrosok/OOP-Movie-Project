@@ -2,17 +2,19 @@ package no.hiof.martr.com.movie.controller;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import no.hiof.martr.com.movie.MainJavaFX;
 import no.hiof.martr.com.movie.model.Movie;
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Optional;
 
 public class mainWindowController {
@@ -32,14 +34,29 @@ public class mainWindowController {
     @FXML
     private Label lblGenre;
     @FXML
-    private Button btnEdit;
+    private ImageView imgPoster;
+
 
     private Movie currentMovie;
+
+    //statisk klasse for visning av film i listView
+    private static class MovieCell extends ListCell<Movie> {
+        @Override
+        public void updateItem(Movie movie, boolean empty) {
+            super.updateItem(movie, empty);
+            if (movie != null)
+                setText(movie.getTitle() + " (" + movie.getReleaseDate().getYear() +")");
+        }
+    }
 
     @FXML
     public void initialize() {
 
-        movieListView.setItems(MainJavaFX.javaFXApplication.getMovies().sorted());
+        movieListView.setItems(MainJavaFX.javaFXApplication.getMovies());
+
+        // bruker lambda expression her i stedet for anonym callback implementasjon. Viser tilpasset tekst i ListView.
+        movieListView.setCellFactory(filmListView -> new MovieCell()
+        );
 
         // eventListener på endring av listeelement
         movieListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Movie>() {
@@ -55,14 +72,6 @@ public class mainWindowController {
         // setter selection mode til single, og viser første i lista ved oppstart
         movieListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         movieListView.getSelectionModel().selectFirst();
-
-        //lager onAction for Edit-knappen med anonym klasseimplementasjon
-        btnEdit.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                showEditDialog();
-            }
-        });
     }
 
     //fyller vinduet med riktig tekst
@@ -79,6 +88,11 @@ public class mainWindowController {
 
         lblRuntime.setText("Runtime: " + movie.getRuntime() + " minutes");
         lblGenre.setText("Genre: " + movie.getGenre());
+
+        String URL = "https://image.tmdb.org/t/p/w500" + movie.getPosterURL();
+        imgPoster.setImage(new Image(URL));
+
+
     }
 
     @FXML
@@ -160,6 +174,10 @@ public class mainWindowController {
         } else {
             // ... bruker trykket CANCEL eller lukket vinduet
         }
+    }
+
+    @FXML
+    public void sortTitleAscending() {
 
     }
 }

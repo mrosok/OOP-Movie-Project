@@ -6,7 +6,35 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6171d41c-7b7d-41cd-a42c-e1f52c51e2b6" name="Default" comment="" />
+    <list default="true" id="6171d41c-7b7d-41cd-a42c-e1f52c51e2b6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/filmer_1000.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/filmer_1000_uten_egen_localdate_serialiserer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/gson-2.8.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.46.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/MovieData.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/MovieMapper.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d670d21-098f-48d8-addd-fb7fd5b12a2d.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/OOP Movie Project.iml" afterPath="$PROJECT_DIR$/OOP Movie Project.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/Main.class" afterPath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/MainJavaFX.class" afterPath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/MainJavaFX.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/controller/mainWindowController$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/controller/mainWindowController$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/controller/mainWindowController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/model/Movie.class" afterPath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/model/Movie.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/view/style.css" afterPath="$PROJECT_DIR$/out/production/OOP Movie Project/no/hiof/martr/com/movie/view/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/Main.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/style.css" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/style.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +42,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/OOP_Movie_Project$MainJavaFX.coverage" NAME="MainJavaFX Coverage Results" MODIFIED="1521731263441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,21 +86,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="200">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Production.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Production.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -77,42 +98,44 @@
       <file leaf-file-name="MainJavaFX.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="907">
-              <caret line="64" column="45" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+            <state relative-caret-position="-185">
+              <caret line="25" column="79" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="79" />
               <folding>
-                <element signature="e#0#3549#0" expanded="true" />
+                <element signature="e#0#2348#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3288#3289#0" expanded="true" />
-                <element signature="e#3317#3318#0" expanded="true" />
-                <element signature="e#3358#3359#0" expanded="true" />
-                <element signature="e#3391#3392#0" expanded="true" />
-                <element signature="e#3435#3436#0" expanded="true" />
-                <element signature="e#3471#3472#0" expanded="true" />
-                <element signature="e#3517#3518#0" expanded="true" />
-                <element signature="e#3545#3546#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#1801#1802#0" expanded="true" />
+                <element signature="e#1830#1831#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2030#2031#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d670d21-098f-48d8-addd-fb7fd5b12a2d/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mainWindow.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="82" column="95" lean-forward="false" selection-start-line="82" selection-start-column="95" selection-end-line="82" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="320">
+              <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -121,8 +144,8 @@
       <file leaf-file-name="mainWindowController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1435">
-              <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+            <state relative-caret-position="505">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,24 +153,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/style.css">
+      <file leaf-file-name="MovieMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="660">
+              <caret line="42" column="95" lean-forward="false" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+              <folding>
+                <marker date="1521733259827" expanded="true" signature="651:670" ph="SELECT * FRO... movie" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DialogView.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="61" column="65" lean-forward="false" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -156,20 +191,24 @@
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="1240">
+              <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1543#1544#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
+                <element signature="e#1858#1859#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#2033#2034#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,6 +225,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -211,14 +253,16 @@
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/mainWindow.fxml" />
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/EditDialogController.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/TVSeries.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml" />
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/Main.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/style.css" />
-        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml" />
-        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieData.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieMapper.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java" />
       </list>
     </option>
   </component>
@@ -240,7 +284,7 @@
     <option name="height" value="938" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -254,101 +298,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP-Movie-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP_Movie_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="no" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP Movie Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP Movie Project" type="462c0819:PsiDirectoryNode" />
-              <item name="no" type="462c0819:PsiDirectoryNode" />
-              <item name="hiof" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP-Movie-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
+              <item name="no.hiof.martr.com.movie" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OOP Movie Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
+              <item name="OOP-Movie-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP-Movie-Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OOP Movie Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
-              <item name="no.hiof.martr.com.movie" type="1f31426a:PackageElementNode" />
+              <item name="OOP-Movie-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP-Movie-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OOP Movie Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
-              <item name="no.hiof.martr.com.movie" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="OOP-Movie-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP-Movie-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OOP Movie Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
-              <item name="no.hiof.martr.com.movie" type="1f31426a:PackageElementNode" />
-              <item name="model" type="1f31426a:PackageElementNode" />
+              <item name="OOP-Movie-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP-Movie-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OOP Movie Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="OOP Movie Project" type="616d4139:PackageViewModuleNode" />
-              <item name="no.hiof.martr.com.movie" type="1f31426a:PackageElementNode" />
-              <item name="view" type="1f31426a:PackageElementNode" />
+              <item name="OOP-Movie-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP-Movie-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP-Movie-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP-Movie-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,6 +369,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -467,11 +476,12 @@
       <workItem from="1520535513711" duration="5376000" />
       <workItem from="1520541384517" duration="69000" />
       <workItem from="1521640827737" duration="2440000" />
+      <workItem from="1521718972473" duration="15914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74574000" />
+    <option name="totallyTimeSpent" value="90488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,27 +493,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31740063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2195122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10364583" sideWeight="0.5037116" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17024705" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16979167" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.49628845" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24977618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -555,53 +566,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#3549#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-            <element signature="e#3471#3472#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,40 +608,42 @@
         <state relative-caret-position="1080">
           <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
           <folding>
-            <element signature="e#0#3549#0" expanded="true" />
+            <element signature="e#0#2348#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-            <element signature="e#3471#3472#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java">
@@ -679,7 +651,7 @@
         <state relative-caret-position="54">
           <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -712,14 +684,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java">
@@ -736,7 +708,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,16 +762,18 @@
         <state relative-caret-position="702">
           <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
           <folding>
-            <element signature="e#0#3549#0" expanded="true" />
+            <element signature="e#0#2348#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-            <element signature="e#3471#3472#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -902,13 +892,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/newDialog.fxml" />
-    <entry file="file://$PROJECT_DIR$/../OOP_V2018/Forelesning14_Uke08_JavaFX_FXML_Controller/JavaFXDyrePark_MVC_med_Liste/src/no/hiof/larseknu/javafxdyrepark/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../OOP_V2018/Forelesning14_Uke08_JavaFX_FXML_Controller/JavaFXDyrePark_MVC_med_Liste/src/no/hiof/larseknu/javafxdyrepark/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Episode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -924,103 +908,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d670d21-098f-48d8-addd-fb7fd5b12a2d/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Production.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
+        <state relative-caret-position="840">
           <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/style.css">
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/DialogView.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="42" column="95" lean-forward="false" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+          <folding>
+            <marker date="1521733259827" expanded="true" signature="651:670" ph="SELECT * FRO... movie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="82" column="95" lean-forward="false" selection-start-line="82" selection-start-column="95" selection-end-line="82" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="455">
+          <caret line="61" column="65" lean-forward="false" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="25" column="79" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#2348#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="200">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="64" column="45" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#3549#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-            <element signature="e#3471#3472#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3545#3546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d670d21-098f-48d8-addd-fb7fd5b12a2d/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="1240">
+          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1435">
-          <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+        <state relative-caret-position="505">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

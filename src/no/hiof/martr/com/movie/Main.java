@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         // testdata
-        MainJavaFX moviedata = new MainJavaFX();
+       // MainJavaFX moviedata = new MainJavaFX();
 
         TVSeries itCrowd = new TVSeries("The IT Crowd",
                 "The comedic adventures of a rag-tag group of technical support workers at a large corporation.",

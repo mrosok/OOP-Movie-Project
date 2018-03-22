@@ -6,55 +6,92 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="mainView" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="no.hiof.martr.com.movie.controller.mainWindowController">
+<BorderPane fx:id="mainView" prefHeight="400.0" prefWidth="800.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.martr.com.movie.controller.mainWindowController">
 
     <left>
         <ListView fx:id="movieListView" styleClass="background" />
     </left>
 
     <center>
-        <VBox styleClass="background">
-            <Label fx:id="lblMovieTitle" styleClass="label-header" text="Tittel">
-                <font>
-                    <Font name="Arial Bold" size="26.0" />
-                </font>
-            <VBox.margin>
-               <Insets left="10.0" top="10.0" />
-            </VBox.margin>
-            </Label>
-            <TextArea fx:id="txtDescription" editable="false" maxWidth="300" prefHeight="130.0" prefRowCount="3" prefWidth="184.0" promptText="Description" wrapText="true">
-            <VBox.margin>
-               <Insets left="10.0" top="10.0" />
-            </VBox.margin></TextArea>
-            <Label fx:id="lblDate" text="Release date" styleClass="label-bright">
-            <VBox.margin>
-               <Insets left="10.0" top="10.0" />
-            </VBox.margin></Label>
-            <Label fx:id="lblRuntime" text="Runtime" styleClass="label-bright">
-            <VBox.margin>
-               <Insets left="10.0" top="10.0" />
-            </VBox.margin></Label>
-         <Label fx:id="lblGenre" text="Genre" styleClass="label-bright">
-            <VBox.margin>
-               <Insets left="10.0" top="10.0" />
-            </VBox.margin>
-         </Label>
-        </VBox>
+      <GridPane>
+          <Label fx:id="lblMovieTitle" styleClass="label-header" text="Tittel" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1">
+              <font>
+                  <Font name="Arial Bold" size="26.0" />
+              </font>
+            <GridPane.margin>
+               <Insets left="25.0" />
+            </GridPane.margin>
+          </Label>
+              <VBox styleClass="background" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+                  <TextArea fx:id="txtDescription" editable="false" maxWidth="300" prefHeight="180.0" prefRowCount="6" prefWidth="184.0" promptText="Description" wrapText="true">
+                  <VBox.margin>
+                     <Insets left="10.0" top="10.0" />
+                  </VBox.margin>
+               </TextArea>
+                  <Label fx:id="lblDate" styleClass="label-bright" text="Release date">
+                  <VBox.margin>
+                     <Insets left="10.0" top="10.0" />
+                  </VBox.margin>
+               </Label>
+                  <Label fx:id="lblRuntime" styleClass="label-bright" text="Runtime">
+                  <VBox.margin>
+                     <Insets left="10.0" top="10.0" />
+                  </VBox.margin>
+               </Label>
+               <Label fx:id="lblGenre" styleClass="label-bright" text="Genre">
+                  <VBox.margin>
+                     <Insets left="10.0" top="10.0" />
+                  </VBox.margin>
+               </Label>
+            <GridPane.margin>
+               <Insets left="25.0" />
+            </GridPane.margin>
+              </VBox>
+            <ImageView fx:id="imgPoster" fitHeight="234.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS">
+            <GridPane.margin>
+               <Insets right="25.0" />
+            </GridPane.margin></ImageView>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
     </center>
 
     <bottom>
         <HBox alignment="BOTTOM_CENTER" prefHeight="45.0" prefWidth="600.0" spacing="10">
-         <ButtonBar prefHeight="46.0" prefWidth="260.0">
+         <ButtonBar layoutX="1234.0" prefHeight="46.0" prefWidth="260.0">
            <buttons>
-             <Button mnemonicParsing="false" text="New..." onAction="#showNewDialog" />
-               <Button fx:id="btnEdit" mnemonicParsing="false" text="Edit..." />
-               <Button mnemonicParsing="false" text="Delete" onAction="#deleteMovie"/>
+             <Button onAction="#sortTitleAscending" mnemonicParsing="false"  text="Title ▲" />
+               <!--Button onAction="#sortTitleDescending" mnemonicParsing="false" text="Title ▼" />
+               <Button onAction="#sortYearAscending" mnemonicParsing="false"  text="Year ▲" />
+               <Button onAction="#sortYearDescending" mnemonicParsing="false" text="Year ▼" /-->
            </buttons>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </ButtonBar>
+         <ButtonBar layoutX="278.0" layoutY="10.0" prefHeight="46.0" prefWidth="260.0">
+            <buttons>
+               <Button mnemonicParsing="false" onAction="#showNewDialog" text="New..." />
+               <Button mnemonicParsing="false" onAction="#showEditDialog" text="Edit..." />
+               <Button mnemonicParsing="false" onAction="#deleteMovie" text="Delete" />
+            </buttons>
             <opaqueInsets>
                <Insets />
             </opaqueInsets>

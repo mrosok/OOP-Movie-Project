@@ -2,8 +2,11 @@ package no.hiof.martr.com.movie.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import no.hiof.martr.com.movie.MainJavaFX;
+import no.hiof.martr.com.movie.MovieData;
 import no.hiof.martr.com.movie.model.Movie;
 
+import java.sql.SQLException;
 import java.time.LocalDate;
 
 public class DialogController {
@@ -50,6 +53,14 @@ public class DialogController {
         currentMovie.setReleaseDate(date);
         currentMovie.setRuntime(Integer.parseInt(runtime));
         currentMovie.setGenre(genre);
+
+
+        //lagrer til database
+        try {
+            MovieData.updateMovie(currentMovie);
+        } catch (SQLException e) {
+            MainJavaFX.javaFXApplication.showAlert(e.toString());
+        }
     }
 
     public Movie processNewResults() {
@@ -60,6 +71,13 @@ public class DialogController {
         String genre = txtGenre.getText().trim();
 
         Movie newMovie = new Movie(title, desc, date, genre, runtime, false);
+
+        //lagrer til database
+        try {
+            MovieData.saveMovie(newMovie);
+        } catch (SQLException e) {
+            MainJavaFX.javaFXApplication.showAlert(e.toString());
+        }
         return newMovie;
     }
 }

@@ -78,8 +78,8 @@
 .list-view .list-cell:even, .list-cell:odd {
     -fx-background-color: #1d1d1d;
     -fx-text-fill: white;
-    -fx-font-size: 10pt;
-    -fx-padding: 15 10;
+    -fx-font-size: 08pt;
+    -fx-padding: 08 10;
     -fx-cursor: hand;
 
 }
