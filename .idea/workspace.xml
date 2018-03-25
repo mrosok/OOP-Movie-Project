@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6171d41c-7b7d-41cd-a42c-e1f52c51e2b6" name="Default" comment="oblig 5 mostly complete">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d670d21-098f-48d8-addd-fb7fd5b12a2d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1d670d21-098f-48d8-addd-fb7fd5b12a2d.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/MainJavaFX.java" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/DialogController.java" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Production.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Production.java" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/TVSeries.java" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/TVSeries.java" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml" afterPath="$PROJECT_DIR$/src/no/hiof/martr/com/movie/view/mainWindow.fxml" />
-    </list>
+    <list default="true" id="6171d41c-7b7d-41cd-a42c-e1f52c51e2b6" name="Default" comment="oblig 5 mostly complete" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieQuery.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MovieQuery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
+            <state relative-caret-position="173">
               <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -171,7 +159,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Production.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Production.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/model/Production.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1496">
@@ -526,12 +514,12 @@
       <workItem from="1521640827737" duration="2440000" />
       <workItem from="1521718972473" duration="16883000" />
       <workItem from="1521748096641" duration="688000" />
-      <workItem from="1521987481879" duration="13923000" />
+      <workItem from="1521987481879" duration="14058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106068000" />
+    <option name="totallyTimeSpent" value="106203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,6 +532,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -555,7 +544,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21841794" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1745435" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1745435" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10311493" sideWeight="0.49628845" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1016,24 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/controller/mainWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -1153,6 +1124,24 @@
             <element signature="e#2781#2782#0" expanded="true" />
             <element signature="e#2827#2828#0" expanded="true" />
             <element signature="e#2860#2861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/martr/com/movie/MovieQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
           </folding>
         </state>
       </provider>
