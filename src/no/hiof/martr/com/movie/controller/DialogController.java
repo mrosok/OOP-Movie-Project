@@ -3,7 +3,7 @@ package no.hiof.martr.com.movie.controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import no.hiof.martr.com.movie.MainJavaFX;
-import no.hiof.martr.com.movie.MovieData;
+import no.hiof.martr.com.movie.MovieQuery;
 import no.hiof.martr.com.movie.model.Movie;
 
 import java.sql.SQLException;
@@ -57,7 +57,8 @@ public class DialogController {
 
         //lagrer til database
         try {
-            MovieData.updateMovie(currentMovie);
+            MovieQuery query = new MovieQuery();
+            query.updateMovie(currentMovie);
         } catch (SQLException e) {
             MainJavaFX.javaFXApplication.showAlert(e.toString());
         }
@@ -70,11 +71,13 @@ public class DialogController {
         int runtime = Integer.parseInt(txtRuntime.getText().trim());
         String genre = txtGenre.getText().trim();
 
-        Movie newMovie = new Movie(title, desc, date, genre, runtime, false);
+        Movie newMovie = new Movie(title, desc, date, genre, runtime);
 
         //lagrer til database
         try {
-            MovieData.saveMovie(newMovie);
+            MovieQuery query = new MovieQuery();
+            query.saveMovie(newMovie);
+
         } catch (SQLException e) {
             MainJavaFX.javaFXApplication.showAlert(e.toString());
         }

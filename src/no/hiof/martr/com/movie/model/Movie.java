@@ -4,6 +4,14 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+/**
+ * Represents a movie, holds information about about the genre, the id in the database and the poster URL.
+ * All other information is extended from the Production class.
+ *
+ * @author Martin
+ */
+
 public class Movie extends Production implements Comparable<Movie>{
     private String genre;
     private int id;
@@ -12,23 +20,34 @@ public class Movie extends Production implements Comparable<Movie>{
 
     // Constructors
 
-    public Movie(String title, String description, LocalDate releaseDate, String genre, int runtime, boolean addToList) {
-        super(title, description, releaseDate, runtime);
-        this.genre = genre;
-        if(addToList)
-            movieList.add(this);
-    }
 
+    /**
+     * Constructor used for a movie without ID or posterURL. Used when creating a new movie in the GUI.
+     * @param title
+     * @param description
+     * @param releaseDate
+     * @param genre
+     * @param runtime
+     */
     public Movie(String title, String description, LocalDate releaseDate, String genre, int runtime) {
         super(title, description, releaseDate, runtime);
         this.genre = genre;
         movieList.add(this);
     }
 
-    public Movie(int id, String title, String description, LocalDate releaseDate, int runtime, String posterURL) {
+    /**
+     * Constructor for use in connection to the database. Contains all necessary parameters.
+     * @param id
+     * @param title
+     * @param description
+     * @param releaseDate
+     * @param runtime
+     * @param posterURL
+     */
+    public Movie(int id, String title, String description, LocalDate releaseDate, int runtime, String genre, String posterURL) {
         super(title, description, releaseDate, runtime);
         this.id = id;
-        this.genre = "";
+        this.genre = genre;
         this.posterURL = posterURL;
         movieList.add(this);
     }
@@ -39,6 +58,9 @@ public class Movie extends Production implements Comparable<Movie>{
 
     }
 
+    /**
+     * Returns a sorted list based on the compareTo method. Only for testing purposes, not used in application.
+     */
     public static ArrayList<Movie> getSortedList() {
         Collections.sort(movieList);
         return movieList;

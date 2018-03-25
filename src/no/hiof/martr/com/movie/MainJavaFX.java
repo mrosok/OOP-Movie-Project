@@ -1,10 +1,3 @@
-/* OBLIG 4
-*
-* Første bit av oppgaven, med compareTo/sortering av lister er testet i Main.
-*
-* Jeg testet ut litt styling helt på tampen før leveringsfrist. Rakk ikke å gjøre dialogboksen ferdig.
-*
-* */
 
 package no.hiof.martr.com.movie;
 
@@ -34,14 +27,18 @@ public class MainJavaFX extends Application {
     public void start(Stage primaryStage) {
 
         this.primaryStage = primaryStage;
-        try {
-            for (Movie movie : MovieData.loadMoviesFromDatabase())
-                movies.add(movie);
 
+        // laster alle filmer fra databasen
+        try {
+        MovieQuery query = new MovieQuery();
+            for (Movie movie : query.loadMovies())
+                movies.add(movie);
+            mainView();
         } catch (SQLException e) {
-            e.printStackTrace();
+            this.showAlert("Error connecting to database");
+            System.out.println(e);
         }
-        mainView();
+
     }
 
     public void mainView() {

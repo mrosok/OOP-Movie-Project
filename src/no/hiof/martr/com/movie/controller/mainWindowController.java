@@ -2,7 +2,6 @@ package no.hiof.martr.com.movie.controller;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
@@ -10,10 +9,12 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import no.hiof.martr.com.movie.MainJavaFX;
+import no.hiof.martr.com.movie.MovieQuery;
 import no.hiof.martr.com.movie.model.Movie;
+
 import java.io.IOException;
+import java.sql.SQLException;
 import java.time.format.DateTimeFormatter;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Optional;
 
@@ -39,13 +40,16 @@ public class mainWindowController {
 
     private Movie currentMovie;
 
+    private boolean titleIsAscending;
+    private boolean yearIsAscending;
+
     //statisk klasse for visning av film i listView
     private static class MovieCell extends ListCell<Movie> {
         @Override
         public void updateItem(Movie movie, boolean empty) {
             super.updateItem(movie, empty);
             if (movie != null)
-                setText(movie.getTitle() + " (" + movie.getReleaseDate().getYear() +")");
+                setText(movie.getTitle() + " (" + movie.getReleaseDate().getYear() + ")");
         }
     }
 
@@ -174,10 +178,70 @@ public class mainWindowController {
         } else {
             // ... bruker trykket CANCEL eller lukket vinduet
         }
+
+        //lagrer til database
+        try {
+            MovieQuery query = new MovieQuery();
+            query.deleteMovie(currentMovie);
+        } catch (SQLException e) {
+            MainJavaFX.javaFXApplication.showAlert(e.toString());
+        }
     }
 
     @FXML
-    public void sortTitleAscending() {
-
+    public void sortListByTitle() {
+        if (titleIsAscending) {
+            MainJavaFX.javaFXApplication.getMovies().sort(TitleComparatorDescending);
+            titleIsAscending = false;
+        } else {
+            MainJavaFX.javaFXApplication.getMovies().sort(TitleComparatorAscending);
+            titleIsAscending = true;
+        }
     }
+    @FXML
+    public void sortListByYear() {
+        if (yearIsAscending) {
+            MainJavaFX.javaFXApplication.getMovies().sort(ReleaseDateComparatorDescending);
+            yearIsAscending = false;
+        } else {
+            MainJavaFX.javaFXApplication.getMovies().sort(ReleaseDateComparatorAscending);
+            yearIsAscending = true;
+        }
+    }
+//    @FXML
+//    public void sortListByDateAscending() {
+//        MainJavaFX.javaFXApplication.getMovies().sort(ReleaseDateComparatorAscending);
+//    }
+//    @FXML
+//    public void sortListByDateDescending() {
+//        MainJavaFX.javaFXApplication.getMovies().sort(ReleaseDateComparatorDescending);
+//    }
+
+    public static Comparator<Movie> ReleaseDateComparatorDescending = new Comparator<Movie>() {
+        @Override
+        public int compare(Movie o1, Movie o2) {
+            return o1.getReleaseDate().isBefore(o2.getReleaseDate()) ? 1 : o1.getReleaseDate().isAfter(o2.getReleaseDate()) ? -1 : 0;
+        }
+    };
+
+    public static Comparator<Movie> ReleaseDateComparatorAscending = new Comparator<Movie>() {
+        @Override
+        public int compare(Movie o1, Movie o2) {
+            return o1.getReleaseDate().isAfter(o2.getReleaseDate()) ? 1 : o1.getReleaseDate().isBefore(o2.getReleaseDate()) ? -1 : 0;
+        }
+    };
+
+    public static Comparator<Movie> TitleComparatorAscending = new Comparator<Movie>() {
+        @Override
+        public int compare(Movie o1, Movie o2) {
+            return o1.getTitle().compareToIgnoreCase(o2.getTitle());
+        }
+    };
+
+    public static Comparator<Movie> TitleComparatorDescending = new Comparator<Movie>() {
+        @Override
+        public int compare(Movie o1, Movie o2) {
+            return o2.getTitle().compareToIgnoreCase(o1.getTitle());
+        }
+    };
 }

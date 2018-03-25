@@ -77,10 +77,10 @@
         <HBox alignment="BOTTOM_CENTER" prefHeight="45.0" prefWidth="600.0" spacing="10">
          <ButtonBar layoutX="1234.0" prefHeight="46.0" prefWidth="260.0">
            <buttons>
-             <Button onAction="#sortTitleAscending" mnemonicParsing="false"  text="Title ▲" />
-               <!--Button onAction="#sortTitleDescending" mnemonicParsing="false" text="Title ▼" />
-               <Button onAction="#sortYearAscending" mnemonicParsing="false"  text="Year ▲" />
-               <Button onAction="#sortYearDescending" mnemonicParsing="false" text="Year ▼" /-->
+            <Button onAction="#sortListByTitle" mnemonicParsing="false"  text="Sort by Title" />
+               <!--Button onAction="#sortListByTitleDescending" mnemonicParsing="false" text="Title ▼" /-->
+               <Button onAction="#sortListByYear"  text="Sort by Year" />
+               <!--Button onAction="#sortListByDateDescending" mnemonicParsing="false" text="Year ▼" /-->
            </buttons>
             <opaqueInsets>
                <Insets />
