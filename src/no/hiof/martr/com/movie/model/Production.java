@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Represents a filmed production. Contains information about the title, a description, the release date, the length of
- * the production (runtime), director and a list of Roles. Production is the superclass of Episode and Movie.
+ * the production (runtime), director and a list of Roles.
  *
  */
 
@@ -22,11 +22,11 @@ public abstract class Production {
 
 
     /**
-     * Default constructor with all paramaters
-     * @param title
-     * @param description
-     * @param releaseDate
-     * @param runtime
+     * Default constructor with all parameters
+     * @param title the title of the production
+     * @param description a short description of the production
+     * @param releaseDate the release date of the production
+     * @param runtime - the runtime (length) of the production in minutes
      */
     public Production(String title, String description, LocalDate releaseDate, int runtime) {
         this.title = title;
@@ -37,9 +37,9 @@ public abstract class Production {
 
     /**
      * Constructor without specifying runtime
-     * @param title
-     * @param description
-     * @param releaseDate
+     * @param title the title of the production
+     * @param description a short description of the production
+     * @param releaseDate the release date of the production
      */
     public Production(String title, String description, LocalDate releaseDate) {
         this.title = title;
@@ -51,7 +51,7 @@ public abstract class Production {
 
     /**
      * Adds a single role to the roleList
-     * @param role
+     * @param role the Role object to be added
      */
     public void addSingleRole(Role role) {
 
@@ -60,7 +60,7 @@ public abstract class Production {
 
     /**
      * Takes an ArrayList of roles and adds it to the roleList
-     * @param roles
+     * @param roles the ArrayList of Role objects to be added
      */
     public void addMultipleRoles (ArrayList<Role> roles) {
         this.roleList.addAll(roles);

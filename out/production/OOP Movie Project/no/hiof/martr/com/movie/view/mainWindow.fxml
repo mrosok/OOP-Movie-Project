@@ -16,9 +16,18 @@
 <?import javafx.scene.text.Font?>
 
 <BorderPane fx:id="mainView" prefHeight="400.0" prefWidth="800.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.martr.com.movie.controller.mainWindowController">
+    <!--top>
+        <MenuBar styleClass="background">
+            <Menu text="Window">
+            </Menu>
+         <opaqueInsets>
+            <Insets bottom="10.0" />
+         </opaqueInsets>
+        </MenuBar>
+    </top-->
 
     <left>
-        <ListView fx:id="movieListView" styleClass="background" />
+        <ListView fx:id="movieListView" prefWidth="300.0" styleClass="background" />
     </left>
 
     <center>
@@ -77,9 +86,9 @@
         <HBox alignment="BOTTOM_CENTER" prefHeight="45.0" prefWidth="600.0" spacing="10">
          <ButtonBar layoutX="1234.0" prefHeight="46.0" prefWidth="260.0">
            <buttons>
-            <Button onAction="#sortListByTitle" mnemonicParsing="false"  text="Sort by Title" />
+            <Button mnemonicParsing="false" onAction="#sortListByTitle" text="Sort by Title" />
                <!--Button onAction="#sortListByTitleDescending" mnemonicParsing="false" text="Title ▼" /-->
-               <Button onAction="#sortListByYear"  text="Sort by Year" />
+               <Button onAction="#sortListByYear" text="Sort by Year" />
                <!--Button onAction="#sortListByDateDescending" mnemonicParsing="false" text="Year ▼" /-->
            </buttons>
             <opaqueInsets>

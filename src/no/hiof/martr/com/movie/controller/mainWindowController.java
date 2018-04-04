@@ -8,6 +8,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
+import javafx.util.Callback;
 import no.hiof.martr.com.movie.MainJavaFX;
 import no.hiof.martr.com.movie.MovieQuery;
 import no.hiof.martr.com.movie.model.Movie;
@@ -37,9 +38,10 @@ public class mainWindowController {
     @FXML
     private ImageView imgPoster;
 
-
+    // holder på filmen som er valgt
     private Movie currentMovie;
 
+    // sjekker hvordan filmlisten er sortert
     private boolean titleIsAscending;
     private boolean yearIsAscending;
 
@@ -58,9 +60,14 @@ public class mainWindowController {
 
         movieListView.setItems(MainJavaFX.javaFXApplication.getMovies());
 
-        // bruker lambda expression her i stedet for anonym callback implementasjon. Viser tilpasset tekst i ListView.
-        movieListView.setCellFactory(filmListView -> new MovieCell()
-        );
+        // alternativ med lambda expression
+        // movieListView.setCellFactory(filmListView -> new MovieCell());
+        movieListView.setCellFactory(new Callback<ListView<Movie>, ListCell<Movie>>() {
+            @Override
+            public ListCell<Movie> call(ListView<Movie> param) {
+                return new MovieCell();
+            }
+        });
 
         // eventListener på endring av listeelement
         movieListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Movie>() {
@@ -93,10 +100,16 @@ public class mainWindowController {
         lblRuntime.setText("Runtime: " + movie.getRuntime() + " minutes");
         lblGenre.setText("Genre: " + movie.getGenre());
 
-        String URL = "https://image.tmdb.org/t/p/w500" + movie.getPosterURL();
-        imgPoster.setImage(new Image(URL));
+        // kjører oppdatering av poster i egen tråd
+        Runnable task = new Runnable() {
+            @Override
+            public void run() {
+                String URL = "https://image.tmdb.org/t/p/w500" + movie.getPosterURL();
+                imgPoster.setImage(new Image(URL));
+            }
+        };
 
-
+        new Thread(task).start();
     }
 
     @FXML
@@ -171,7 +184,7 @@ public class mainWindowController {
         alert.setContentText("Are you sure?");
 
         Optional<ButtonType> result = alert.showAndWait();
-        if (result.get() == ButtonType.OK) {
+        if (result.isPresent() && result.get() == ButtonType.OK) {
             // ... bruker trykket OK
             Movie movie = movieListView.getSelectionModel().getSelectedItem();
             MainJavaFX.javaFXApplication.removeMovie(movie);
@@ -187,6 +200,9 @@ public class mainWindowController {
             MainJavaFX.javaFXApplication.showAlert(e.toString());
         }
     }
+
+    // Sortering: To metoder som sorterer stigende og synkende, alternerende på klikk.
+    // fire statiske comparatorer som blir brukt til å sortere.
 
     @FXML
     public void sortListByTitle() {
@@ -208,26 +224,18 @@ public class mainWindowController {
             yearIsAscending = true;
         }
     }
-//    @FXML
-//    public void sortListByDateAscending() {
-//        MainJavaFX.javaFXApplication.getMovies().sort(ReleaseDateComparatorAscending);
-//    }
-//    @FXML
-//    public void sortListByDateDescending() {
-//        MainJavaFX.javaFXApplication.getMovies().sort(ReleaseDateComparatorDescending);
-//    }
 
     public static Comparator<Movie> ReleaseDateComparatorDescending = new Comparator<Movie>() {
         @Override
         public int compare(Movie o1, Movie o2) {
-            return o1.getReleaseDate().isBefore(o2.getReleaseDate()) ? 1 : o1.getReleaseDate().isAfter(o2.getReleaseDate()) ? -1 : 0;
+            return o1.getReleaseDate().compareTo(o2.getReleaseDate());
         }
     };
 
     public static Comparator<Movie> ReleaseDateComparatorAscending = new Comparator<Movie>() {
         @Override
         public int compare(Movie o1, Movie o2) {
-            return o1.getReleaseDate().isAfter(o2.getReleaseDate()) ? 1 : o1.getReleaseDate().isBefore(o2.getReleaseDate()) ? -1 : 0;
+            return o2.getReleaseDate().compareTo(o1.getReleaseDate());
         }
     };
 

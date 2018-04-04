@@ -12,20 +12,13 @@ import java.time.LocalDate;
 public class DialogController {
 
     @FXML
-    private DialogPane dialog;
-
-    @FXML
     private TextField txtTitle;
-
     @FXML
     private TextArea txtDescription;
-
     @FXML
     private DatePicker valDate;
-
     @FXML
     private TextField txtRuntime;
-
     @FXML
     private TextField txtGenre;
 
@@ -53,7 +46,6 @@ public class DialogController {
         currentMovie.setReleaseDate(date);
         currentMovie.setRuntime(Integer.parseInt(runtime));
         currentMovie.setGenre(genre);
-
 
         //lagrer til database
         try {

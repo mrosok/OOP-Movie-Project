@@ -23,9 +23,9 @@ public class TVSeries implements Comparable<TVSeries> {
 
     /**
      * Default constructor. Contains parameters for all necessary fields. Sets the number of seasons to 1 upon initializing.
-     * @param title
-     * @param description
-     * @param releaseYear
+     * @param title the title of the TV-series
+     * @param description a short description of the series
+     * @param releaseYear the release year of the series. This should be the year of the first episode of the first season.
      */
     public TVSeries(String title, String description, int releaseYear) {
         this.title = title;
@@ -40,7 +40,7 @@ public class TVSeries implements Comparable<TVSeries> {
     /**
      * Adds a single episode to the list of episodes. Checks that the episode's season number is valid and updates
      * numberOfSeasons if necessary. Updates total average runtime.
-     * @param episode
+     * @param episode the Episode object to be added
      */
     public void addEpisode(Episode episode) {
 
@@ -58,7 +58,7 @@ public class TVSeries implements Comparable<TVSeries> {
 
     /**
      * Lists all episodes in a given season. Prints to System.out
-     * @param season
+     * @param season the season number of which episodes should be listed
      */
     public void listEpisodes(int season) {
         for (Episode episode : episodes) {
@@ -73,8 +73,8 @@ public class TVSeries implements Comparable<TVSeries> {
      * Title will be "Episode n" incremented sequentially per season. Description will be "Default description".
      * Release date will be set to January 1st, 2000 and incremented daily per season
      *
-     * @param seasons
-     * @param episodesPerSeason
+     * @param seasons the number of seasons to be created
+     * @param episodesPerSeason the number of episodes to be created per season
      */
     public void createEpisodes(int seasons, int episodesPerSeason) {
         for (int i = 1; i <= seasons; i++) {
@@ -138,7 +138,7 @@ public class TVSeries implements Comparable<TVSeries> {
 
     /**
      * returns the number of episodes a role is featured in the series.
-     * @param role
+     * @param role the Role object to be queried
      * @return
      */
     private int numberOfEpisodes(Role role) {

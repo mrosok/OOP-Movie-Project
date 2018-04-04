@@ -2,6 +2,10 @@
     -fx-background-color: #1d1d1d;
 }
 
+#menutext {
+    -fx-text-fill: black;
+}
+
 .label {
     -fx-font-size: 11pt;
     -fx-font-family: "Segoe UI Semibold";
@@ -75,11 +79,15 @@
     -fx-text-fill: white;
 }
 
-.list-view .list-cell:even, .list-cell:odd {
-    -fx-background-color: #1d1d1d;
+.list-cell {
     -fx-text-fill: white;
+    -fx-background-color: #1d1d1d;
     -fx-font-size: 08pt;
     -fx-padding: 08 10;
     -fx-cursor: hand;
+}
 
+.list-cell:selected {
+    -fx-background-color: #b0b6ff;
+    -fx-text-fill: black;
 }

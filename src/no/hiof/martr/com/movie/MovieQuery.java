@@ -13,18 +13,15 @@ public class MovieQuery {
     private final static String USER = "root";
     private final static String PASSWORD = "";
 
-    private Connection connection;
     private MovieMapper movieMapper;
 
     public MovieQuery() throws SQLException {
         Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
-        MovieMapper movieMapper = new MovieMapper(connection);
-        this.connection = connection;
-        this.movieMapper = movieMapper;
+        this.movieMapper = new MovieMapper(connection);
     }
 
     public void saveMovie(Movie movie) {
-        this.movieMapper.writeMovietoDatabase(movie);
+        this.movieMapper.writeMovieToDatabase(movie);
     }
 
     public void deleteMovie(Movie movie) {

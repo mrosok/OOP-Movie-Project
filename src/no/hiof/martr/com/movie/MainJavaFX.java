@@ -46,7 +46,7 @@ public class MainJavaFX extends Application {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("view/mainWindow.fxml"));
             Parent root = fxmlLoader.load();
-            Scene mainScene = new Scene(root, 800, 480);
+            Scene mainScene = new Scene(root, 900, 480);
 
             primaryStage.setScene(mainScene);
             primaryStage.setTitle("FilmBasen");

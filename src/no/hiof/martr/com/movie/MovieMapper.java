@@ -40,7 +40,12 @@ public class MovieMapper {
         return movieList;
     }
 
-    public void writeMovietoDatabase(Movie movie) {
+    /**
+     * Stores a movie in the database. The database will generate a unique ID when inserting new data. This ID is
+     * returned and stored in the movie object ID field.
+     * @param movie
+     */
+    public void writeMovieToDatabase(Movie movie) {
         String sql = String.format("INSERT INTO movie (title, description, releaseDate, runtime, genre) " +
                                     "VALUES('%s', '%s', '%s', '%d', '%s');",
                                     movie.getTitle(), movie.getDescription(), movie.getReleaseDate(), movie.getRuntime(), movie.getGenre());
