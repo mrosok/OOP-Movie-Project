@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 /**
  * Represents a movie, holds information about about the genre, the id in the database and the poster URL.
  * All other information is extended from the {@link Production Production} class.

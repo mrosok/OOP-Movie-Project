@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 /**
  * Represents a filmed production. Contains information about the title, a description, the release date, the length of
- * the production (runtime), director and a list of Roles.
+ * the production (runtime), director and a list of {@link Role Roles}.
  *
+ * @author Martin
  */
-
 
 public abstract class Production {
 
@@ -19,7 +19,6 @@ public abstract class Production {
     private ArrayList<Role> roleList = new ArrayList<>();
 
     // Constructors
-
 
     /**
      * Default constructor with all parameters

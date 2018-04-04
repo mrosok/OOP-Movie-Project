@@ -8,6 +8,8 @@ import java.util.Random;
 /**
  * Represents a TV Series. Contains information about the title, a description, the release year.
  * Contains a list of episodes in the series, the average runtime of the episodes and the number of seasons.
+ *
+ * @author Martin
  */
 
 public class TVSeries implements Comparable<TVSeries> {
